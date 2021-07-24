@@ -1,3 +1,27 @@
+/* Assignment name  : repeat_alpha
+Expected files   : repeat_alpha.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+Напишите программу с именем repeat_alpha, которая берет строку и отображает ее,
+повторяя каждый алфавитный символ столько раз, сколько его алфавитный указатель, 
+за которым следует новая строка.
+'a' стнаовится 'a', 'b' становится 'bb', 'e' становится 'eeeee', и так далее...
+Если количество аргументов не равно 1, просто отобразите новую строку.
+Примеры:
+$>./repeat_alpha "abc"
+abbccc
+$>./repeat_alpha "Alex." | cat -e
+Alllllllllllleeeeexxxxxxxxxxxxxxxxxxxxxxxx.$
+$>./repeat_alpha 'abacadaba 42!' | cat -e
+abbacccaddddabba 42!$
+$>./repeat_alpha | cat -e
+$
+$>
+$>./repeat_alpha "" | cat -e
+$
+$> */
+
+
 #include <unistd.h>
 
 int	ft_count(char c)
