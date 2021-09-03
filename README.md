@@ -6,7 +6,7 @@
 * [**Shell 01**](https://github.com/i-galimov/school21/tree/main/Shell_01)
 * [**C Piscine 05**](https://github.com/i-galimov/school21/tree/main/c05)
 
-### Пример кода
+### [Пример кода](https://github.com/i-galimov/school21/blob/main/rev_print.c)
 ```
 #include <unistd.h>
 #include <stdio.h>
@@ -45,5 +45,7 @@ int	main(int argc, char **argv)
 		ft_revprint(argv[1]);
 }
 ```
-
+********
 > ***Корабль не тонет, когда он в воде, он тонет, когда вода в нём.***
+> 
+![Корабль](https://cdn.pixabay.com/photo/2016/05/02/10/13/ship-1366926_960_720.jpg)
