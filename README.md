@@ -6,7 +6,8 @@
 * [**Shell 01**](https://github.com/i-galimov/school21/tree/main/Shell_01)
 * [**C Piscine 05**](https://github.com/i-galimov/school21/tree/main/c05)
 ---
-### [Пример кода](https://github.com/i-galimov/school21/blob/main/rev_print.c)
+### [Пример кода](https://github.com/i-galimov/school21/blob/main/rev_print.c) 
+> *Это не баг, а фича*
 ```
 #include <unistd.h>
 #include <stdio.h>
