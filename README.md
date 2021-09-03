@@ -5,7 +5,7 @@
 * [**Shell 00**](https://github.com/i-galimov/school21/tree/main/Shell_00)
 * [**Shell 01**](https://github.com/i-galimov/school21/tree/main/Shell_01)
 * [**C Piscine 05**](https://github.com/i-galimov/school21/tree/main/c05)
-
+---
 ### [Пример кода](https://github.com/i-galimov/school21/blob/main/rev_print.c)
 ```
 #include <unistd.h>
