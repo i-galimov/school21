@@ -1,7 +1,7 @@
 # Проекты для School 21
 
 ### Бассейн
-
+> *Дорогу осилит плывущий*
 * [**Shell 00**](https://github.com/i-galimov/school21/tree/main/Shell_00)
 * [**Shell 01**](https://github.com/i-galimov/school21/tree/main/Shell_01)
 * [**C Piscine 05**](https://github.com/i-galimov/school21/tree/main/c05)
