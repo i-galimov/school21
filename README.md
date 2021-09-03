@@ -7,7 +7,7 @@
 * [**C Piscine 05**](https://github.com/i-galimov/school21/tree/main/c05)
 
 ### Пример кода
-`
+```
 #include <unistd.h>
 #include <stdio.h>
 
@@ -43,6 +43,7 @@ int	main(int argc, char **argv)
 		write(1, "\n", 1);
 	else
 		ft_revprint(argv[1]);
-}`
+}
+```
 
 > ***Корабль не тонет, когда он в воде, он тонет, когда вода в нём.***
