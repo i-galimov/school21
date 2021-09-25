@@ -6,9 +6,9 @@ If there’s an error, the function should return 0
 
 int ft_recursive_factorial(int nb)
 {
-	int factorial;
+    int factorial;
 	
-	if (nb < 0 || nb > 12) // на случай переполнения
+    if (nb < 0 || nb > 12) // на случай переполнения
     {
         return (0);
     }
