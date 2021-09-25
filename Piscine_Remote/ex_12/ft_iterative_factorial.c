@@ -7,11 +7,12 @@ If there’s an error, the function should return 0
 int ft_iterative_factorial(int nb)
 {
 	int i;
+	
 	i = nb - 1;
-        if (nb < 0 || nb > 12)
-        {
-          return 0;
-        }
+    if (nb < 0 || nb > 12)
+    {
+        return 0;
+    }
 	else if (nb > 1)
 	{
 		while (i > 0) 
@@ -19,12 +20,12 @@ int ft_iterative_factorial(int nb)
 			nb *= i;
 			i--;
 		}
+		return nb;
 	}
-        else if (nb == 0 || nb == 1);
-        {
-          return 1;
-        }
-	return nb;
+    else if (nb == 0 || nb == 1);
+    {
+       return 1;
+    }
 }
 
 int main(void)
