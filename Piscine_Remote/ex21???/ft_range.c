@@ -13,7 +13,6 @@ int *ft_range(int min, int max)
     return (0);
   len = max - min;
   
-  len = 0;
   i = 0;
   array = (int*)malloc(sizeof(int) * (len));
   if (array == NULL)
