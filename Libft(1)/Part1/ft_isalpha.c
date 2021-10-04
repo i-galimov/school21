@@ -1,6 +1,6 @@
-int ft_isalpha (int a)
+int ft_isalpha (int argument)
 {
-	if ((a >= 'a' && a <= 'z') || (a >= 'A' && a <= 'Z'))
+	if ((argument >= 'a' && argument <= 'z') || (argument >= 'A' && argument <= 'Z'))
 	{
 		return (1);
 	}
