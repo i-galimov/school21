@@ -23,5 +23,5 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 			return (h_search + i);
 		i++;
 	}
-	return (0);
+	return (NULL);
 }
