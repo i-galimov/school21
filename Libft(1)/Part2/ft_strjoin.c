@@ -21,9 +21,9 @@ char	*ft_strjoin(char const *s1, char const s2)
 	res = (char *)malloc(len_s1 + len_s2 + 1);
 	if (res == NULL)
 		return (NULL);
-	while(*s1)
+	while(s1[i])
 		res[i++] = s1[i++];
-	while(*s2)
+	while(s2[j])
 		res[i++] = s2[j++];
 	return (res);
 }
