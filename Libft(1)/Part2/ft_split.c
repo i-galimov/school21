@@ -39,11 +39,12 @@ char	**ft_split(char const *s, char c)
 	int	i_start;
 	char	**split;
 
-	if (!s || !(split = malloc((ft_count_words(s, c) + 1) * sizeof(char *))))
-		return (0);
-	i = 0;
+        i = 0;
 	j = 0;
 	i_start = -1;
+	split = malloc(ft_count_words(s, c) + 1) * sizeof(char *));
+        if (!s || !split)
+            return (NULL);
 	while (i <= ft_strlen(s))
 	{
 		if (s[i] != c && i_start < 0)
