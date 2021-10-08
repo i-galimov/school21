@@ -1,4 +1,4 @@
-#ifindef LIBFT_H
+#ifndef LIBFT_H
 # define LIBFT_H
 
 
