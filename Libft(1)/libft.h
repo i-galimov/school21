@@ -4,7 +4,7 @@
 
 #include <unistd.h>
 #include <stdlib.h>
-
+// part 1
 int ft_atoi(const char *s);
 void ft_bzero(void *s, size_t n);
 void *ft_calloc(size_t count, size_t size);
