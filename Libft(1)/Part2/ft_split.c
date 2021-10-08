@@ -57,6 +57,7 @@ char	**ft_split(char const *s, char c)
 		i++;
 	}
 	split[j] = '\0';
-        free(*word);
+        free(word);
+        free(split);
 	return (split);
 }
