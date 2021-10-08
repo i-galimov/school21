@@ -19,7 +19,7 @@ static int ft_count_words(const char *str, char c)
 	return (i);
 }
 
-static char * ft_word_dup(const char *str, int start, int end)
+static char *ft_word_dup(const char *str, int start, int end)
 {
 	char	*word;
 	int	i;
