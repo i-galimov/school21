@@ -1,4 +1,3 @@
-
 static int itoa_len(int n)
 {
 	int len;
