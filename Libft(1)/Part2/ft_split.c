@@ -56,6 +56,7 @@ char	**ft_split(char const *s, char c)
 		}
 		i++;
 	}
-	split[j] = 0;
+	split[j] = '\0';
+        free(word);
 	return (split);
 }
