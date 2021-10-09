@@ -3,6 +3,7 @@
 
 #include <unistd.h>
 #include <stdlib.h>
+#include <stddef.h>
 // part 1
 int ft_atoi(const char *s);
 void ft_bzero(void *s, size_t n);
