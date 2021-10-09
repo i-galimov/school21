@@ -7,7 +7,6 @@ SRCS			=	ft_isalnum.c ft_isprint.c ft_memcmp.c  ft_putchar_fd.c \
 					ft_putstr_fd.c  ft_strjoin.c ft_strmapi.c ft_strtrim.c ft_striteri.c \
 					ft_split.c
 					
-DEBUG			= ft_split.c
 OBJS			= $(SRCS:.c=.o)
 
 INCLUDES		= -I includes
