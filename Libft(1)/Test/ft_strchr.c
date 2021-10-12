@@ -36,4 +36,11 @@ int main(void)
 	const char * vv3;
 	vv3 = ft_strchr(NULL, 111);
 	printf("%p\n", vv3);
+
+        const char * vv4;
+	vv4 = ft_strchr("Hello world", 72);
+	printf("%p\n", vv4);
+	const char * test4;
+	test4 = strchr("Hello world", 72);
+	printf("%p\n", test4);
 }
