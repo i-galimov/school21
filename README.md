@@ -5,7 +5,7 @@
 * [**Shell 00**](https://github.com/i-galimov/school21/tree/main/Shell_00)
 * [**Shell 01**](https://github.com/i-galimov/school21/tree/main/Shell_01)
 * [**C Piscine 05**](https://github.com/i-galimov/school21/tree/main/c05)
-* [**Piscine Remote**](https://github.com/i-galimov/school21/tree/main/Piscine_Remote)
+* [**Piscine Remote (проект на основе заданий бассейна)**](https://github.com/i-galimov/school21/tree/main/Piscine_Remote)
 ---
 ### [Пример кода](https://github.com/i-galimov/school21/blob/main/rev_print.c) 
 > *Это не баг, а фича*
